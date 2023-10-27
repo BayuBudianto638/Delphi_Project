@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{2D314227-0628-49E4-84AF-00D404C06BC4}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="pUtama.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="UnitTest\pUnitTest.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="pUtama">
+        <MSBuild Projects="pUtama.dproj"/>
+    </Target>
+    <Target Name="pUtama:Clean">
+        <MSBuild Projects="pUtama.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="pUtama:Make">
+        <MSBuild Projects="pUtama.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="pUnitTest">
+        <MSBuild Projects="UnitTest\pUnitTest.dproj"/>
+    </Target>
+    <Target Name="pUnitTest:Clean">
+        <MSBuild Projects="UnitTest\pUnitTest.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="pUnitTest:Make">
+        <MSBuild Projects="UnitTest\pUnitTest.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="pUtama;pUnitTest"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="pUtama:Clean;pUnitTest:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="pUtama:Make;pUnitTest:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

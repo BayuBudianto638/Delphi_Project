@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.121,X:\Delphi_Project\Unit1.pas=X:\Delphi_Project\uDM.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.639,X:\Delphi_Project\uDM.pas=</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.194,=C:\Users\radam\OneDrive\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.849,=X:\Delphi_Project\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.983,X:\Delphi_Project\ConnectionModule.dfm=X:\Delphi_Project\uDM.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.121,X:\Delphi_Project\Unit1.dfm=X:\Delphi_Project\uDM.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.893,=X:\Delphi_Project\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.983,X:\Delphi_Project\ConnectionModule.pas=X:\Delphi_Project\uDM.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.170,=X:\Delphi_Project\ConnectionModule.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.091,C:\Users\radam\OneDrive\Documents\Embarcadero\Studio\Projects\Project3.dproj=X:\Delphi_Project\pUtama.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.285,C:\Users\radam\OneDrive\Documents\Embarcadero\Studio\Projects\Unit2.dfm=X:\Delphi_Project\uUtama.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.809,=C:\Users\radam\OneDrive\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.285,C:\Users\radam\OneDrive\Documents\Embarcadero\Studio\Projects\Unit2.pas=X:\Delphi_Project\uUtama.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.558,X:\Delphi_Project\Repositories\uRepositories.pas=X:\Delphi_Project\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>
